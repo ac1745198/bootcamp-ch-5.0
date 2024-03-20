@@ -1,0 +1,78 @@
+/* Apply a CSS reset to normalize styles across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Improve readability and consistency of text */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Darken text color for better contrast */
+  }
+  
+  /* Style text areas for better readability and interaction */
+  textarea {
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 5px; /* Round the corners */
+    padding: 10px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Improve readability for description text */
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  /* Style time blocks */
+  .time-block {
+    border-radius: 5px; /* Slightly reduce the border radius */
+    padding: 10px;
+    margin-bottom: 10px; /* Add spacing between time blocks */
+  }
+  
+  /* Add a subtle border between rows for better separation */
+  .row {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style hour blocks */
+  .hour {
+    padding: 10px;
+    border-radius: 5px; /* Apply border radius to hour blocks */
+  }
+  
+  /* Improve contrast and visual hierarchy for past, present, and future time blocks */
+  .past {
+    background-color: #f2f2f2; /* Lighter gray background */
+    color: #666; /* Darken text color */
+  }
+  
+  .present {
+    background-color: #ffcccc; /* Light red background */
+    font-weight: bold; /* Emphasize the current time */
+  }
+  
+  .future {
+    background-color: #e6f2e6; /* Light green background */
+    color: #008000; /* Darken text color for better contrast */
+  }
+  
+  /* Style save button */
+  .saveBtn {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .saveBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
